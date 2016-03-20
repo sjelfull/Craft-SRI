@@ -36,7 +36,7 @@ The request will be cached for 24 hours. You may override this in general.php by
 ## SRI Roadmap
 
 - Add option for calculating hashes with multiple algorithms
-- Make cache duration configurable.
+- ~~Make cache duration configurable.~~
 
 ## SRI Changelog
 
