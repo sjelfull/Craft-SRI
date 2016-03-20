@@ -36,7 +36,7 @@ class SRIService extends BaseApplicationComponent
         ];
 
         // Check if cache duration have been overriden
-        $overrideCacheDuration = craft()->config->get('sriCacheDuraction');
+        $overrideCacheDuration = craft()->config->get('sriCacheDuration');
 
         if ($overrideCacheDuration) {
             $this->options['cacheDuraction'] = $overrideCacheDuration;
