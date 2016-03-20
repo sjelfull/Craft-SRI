@@ -23,9 +23,9 @@ Learn more about how to use [subresource integrity](https://developer.mozilla.or
 
 You can apply the `sri` filter to either a <script> or a <link> tag, like so:
 
-`{{ '<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>' | sri }}`
+```{{ '<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>' | sri }}```
 
-{{ '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">' | sri }}
+```{{ '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">' | sri }}```
 
 The request will be cached for 1 hour.
 
