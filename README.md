@@ -27,7 +27,11 @@ You can apply the `sri` filter to either a `<script>` or a `<link>` tag, like so
 
 ```{{ '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">' | sri }}```
 
-The request will be cached for 1 hour.
+The request will be cached for 24 hours. You may override this in general.php by setting the duration like so:
+
+```php
+    'sriCacheDuration' => 3600 * 24, // 24 hours by default
+```
 
 ## SRI Roadmap
 
