@@ -21,7 +21,7 @@ Learn more about how to use [subresource integrity](https://developer.mozilla.or
 
 ## Using SRI
 
-You can apply the `sri` filter to either a <script> or a <link> tag, like so:
+You can apply the `sri` filter to either a `<script>` or a `<link>` tag, like so:
 
 ```{{ '<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>' | sri }}```
 
